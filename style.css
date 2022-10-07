@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&display=swap');
+
+.main-inner {
+    font-family: fantasy;
+}
+
+
+.navigation-logo {
+    border-radius: 50%;
+}
+
+.product-card {
+    display: inline-block;
+    margin: 10px;
+
+    border-radius: 10%;
+    width: 400px;
+}
+
+.buy-button {
+    background-color: black;
+    border-radius: 20px;
+    border: 1px grey solid;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    color:white;
+}
+
+.product-cost {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+
+}
+
+.product-card {
+    outline: 2px solid black;
+    text-align: center;
+
+}
+
+.main-inner {
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-image: url(https://inlnk.ru/ageNBP);
+    font-size: 100px;
+    background-size: 100%;
+    margin: 0px;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.product-name {
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+    border: transparent;
+}
+
+.product-desk {
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+html {
+    background-color: black;
+}
+
+.article {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+}
