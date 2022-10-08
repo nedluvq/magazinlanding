@@ -1,18 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&display=swap');
 
-.main-inner {
-    font-family: fantasy;
-}
-
-
-.navigation-logo {
-    border-radius: 50%;
-}
-
 .product-card {
     display: inline-block;
     margin: 10px;
-
     border-radius: 10%;
     width: 400px;
 }
@@ -28,6 +18,11 @@
     height: 30px;
     color:white;
 }
+.buy-button:hover{
+        transform: translateY(-2px);
+    }
+    
+
 
 .product-cost {
     font-family: Verdana, 'Geneva', Tahoma, sans-serif;
@@ -80,9 +75,4 @@ html {
     color: white;
     font-size: 50px;
     font-family: 'Gemunu Libre', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: white !important;
 }
