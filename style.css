@@ -4,6 +4,7 @@
     display: inline-block;
     margin: 10px;
     width: 400px;
+    text-align: center;
 }
 
 .buy-button {
@@ -18,7 +19,9 @@
     color:white;
 }
 .buy-button:hover{
-        transform: translateY(-2px);
+        transform: translateY(2px);
+        background-color: white;
+        color: black;
     }
     
 
@@ -31,9 +34,11 @@
 
 }
 
-.product-card {
-    outline: 2px solid black;
-    text-align: center;
+
+.product-card:hover {
+    backdrop-filter: blur(5px);
+    border-radius: 7%;
+    background-color: rgb(65, 64, 64);
 
 }
 
@@ -59,8 +64,8 @@
 .product-name {
     color: white;
     font-family: 'Gemunu Libre', sans-serif;
-    border: transparent;
 }
+
 
 .product-desk {
     color: white;
