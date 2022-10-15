@@ -6,24 +6,27 @@
     width: 380px;
     text-align: center;
     transition: 500ms;
+    padding: 10px;
 }
 
 .product-card:hover {
-    border-radius: 7%;
+    border-radius: 8px;
     background-color: rgb(27, 25, 25);
 
 }
 
 .buy-button {
     background-color: black;
-    border-radius: 20px;
+    border-radius: 15px;
     border: 1px grey solid;
     font-size: 15px;
     font-family: 'Gemunu Libre', sans-serif;
     align-items: center;
-    width: 100px;
+
+    width: 60px;
     height: 30px;
     color:white;
+
 }
 
 .buy-button:hover{
