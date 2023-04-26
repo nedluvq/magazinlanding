@@ -10,7 +10,6 @@
 }
 
 .product-card:hover {
-    border-radius: 8px;
     background-color: rgb(27, 25, 25);
 
 }
